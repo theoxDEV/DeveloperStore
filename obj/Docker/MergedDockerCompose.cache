@@ -28,6 +28,7 @@ services:
     ports:
       - mode: ingress
         target: 5432
+        published: "5432"
         protocol: tcp
     restart: unless-stopped
   ambev.developerevaluation.nosql:

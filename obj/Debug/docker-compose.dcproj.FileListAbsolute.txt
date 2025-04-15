@@ -1,10 +1,9 @@
-C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\bin\Debug\Ambev.DeveloperEvaluation.WebApi.dll
-C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\bin\Debug\Ambev.DeveloperEvaluation.WebApi.deps.json
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\bin\Debug\Ambev.DeveloperEvaluation.WebApi.runtimeconfig.json
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\bin\Debug\appsettings.Development.json
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\bin\Debug\appsettings.json
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\bin\Debug\Ambev.DeveloperEvaluation.WebApi.exe
+C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\bin\Debug\Ambev.DeveloperEvaluation.WebApi.dll
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\bin\Debug\MediatR.dll
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\bin\Debug\Microsoft.EntityFrameworkCore.dll
@@ -59,4 +58,5 @@ C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\bin
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\bin\Debug\Ambev.DeveloperEvaluation.ORM.pdb
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\bin\Debug\Ambev.DeveloperEvaluation.IoC.pdb
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\obj\Debug\docker-c.35A3FFBA.Up2Date

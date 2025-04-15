@@ -136,6 +136,7 @@ C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\src
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.csproj.CoreCompileInputs.cache
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\Ambev.DeveloperEvaluation.WebApi.sourcelink.json
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\src\Ambev.DeveloperEvaluation.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.Ambev.DeveloperEvaluation.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
