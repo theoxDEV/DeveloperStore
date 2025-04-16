@@ -52,7 +52,7 @@ The API supports full **CRUD operations for sales** and includes:
 
 ⚠️ Ensure Docker Desktop is running before going forward to these following steps.
 
-Setup docker-compose as Startup Project and run the project.
+⚙️ Use docker-compose as Startup Project and run the project.
 
 Use the following command in the Package Manager Console, using ORM project as Default project:
 
@@ -72,8 +72,6 @@ This command will:
 modelBuilder.Seed();
 
 modelBuilder.SeedBusinessRuleExamples();
-
-⚙️ Use the startup project (WebApi) to resolve the appsettings.json and environment configuration.
 
 ⚠️ Ensure Docker is running and the database container is available before executing this command.
 ```
@@ -96,8 +94,9 @@ https://localhost:8081/swagger
 
 To run all unit tests:
 
+⚙️ Use the below command at "../Tests/Unit/Ambev.DeveloperEvaluation.Unit" project path.
 ```bash
-dotnet test tests/Ambev.DeveloperEvaluation.Tests.Unit
+dotnet test
 ```
 
 Unit tests cover:
