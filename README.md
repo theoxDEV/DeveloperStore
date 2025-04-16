@@ -1,105 +1,136 @@
-🧪 Developer Evaluation Project — Sales API
-This project is part of a technical assessment and consists of building a complete Sales API using:
+# 🧪 Developer Evaluation Project — Sales API
 
-ASP.NET Core 8
+This project is part of a technical assessment and consists of building a complete **Sales API** using:
 
-DDD (Domain-Driven Design)
+- **ASP.NET Core 8**
+- **DDD (Domain-Driven Design)**
+- **CQRS (Command and Query Responsibility Segregation)**
+- **EF Core + PostgreSQL**
+- **Docker Compose**
+- **Unit Testing with xUnit + Moq**
 
-CQRS (Command and Query Responsibility Segregation)
+---
 
-EF Core + PostgreSQL
+## 📦 Features
 
-Docker Compose
+The API supports full **CRUD operations for sales** and includes:
 
-Unit Testing with xUnit + Moq
+- ✅ Sale number and date  
+- ✅ Customer and branch (external IDs + denormalized names)  
+- ✅ Product list with quantity, unit price, discounts, and item totals  
+- ✅ Total sale amount  
+- ✅ Sale cancellation  
+- ✅ Sale item cancellation  
+- ✅ Event logs (SaleCreated, SaleCancelled, ItemCancelled)  
+- ✅ Validation rules and business logic  
+- ✅ Unit tests with full coverage  
 
-📦 Features
-The API supports full CRUD operations for sales and includes:
+---
 
-✅ Sale number and date
+## ⚙️ Business Rules
 
-✅ Customer and branch (external IDs + denormalized names)
+- 4 or more identical items → **10% discount**  
+- 10 to 20 identical items → **20% discount**  
+- More than 20 identical items → ❌ Not allowed  
+- Less than 4 items → ❌ No discount  
 
-✅ Product list with quantity, unit price, discounts, and item totals
+> These rules are applied at the domain layer (`Sale.AddItem(...)`).
 
-✅ Total sale amount
+---
 
-✅ Sale cancellation
+## 🚀 Getting Started
 
-✅ Sale item cancellation
+### 🔧 Prerequisites
 
-✅ Event logs (SaleCreated, SaleCancelled, ItemCancelled)
+- [.NET 8 SDK](https://dotnet.microsoft.com/)
+- [Docker + Docker Compose](https://www.docker.com/)
+- A REST client (e.g. Postman or curl)
 
-✅ Validation rules and business logic
+---
 
-✅ Unit tests with full coverage
+### ▶️ Running the project
 
-⚙️ Business Rules
-🔸 4+ items → 10% discount
+⚠️ Ensure Docker Desktop is running before going forward to these following steps.
 
-🔸 10–20 items → 20% discount
+⚙️ Use docker-compose as Startup Project and run the project.
 
-🔸 More than 20 items → ❌ not allowed
+Use the following command in the Package Manager Console, using ORM project as Default project:
 
-🔸 Less than 4 items → ❌ no discount
+```bash
+dotnet ef database update --project src/Ambev.DeveloperEvaluation.ORM --startup-project src/Ambev.DeveloperEvaluation.WebApi
+```
 
-These rules are applied at the domain layer (Sale → AddItem).
+This command will:
 
-🚀 How to Run
-🔧 Requirements
-.NET 8 SDK
+```
+🗂 Create or update the database schema based on the latest entity configurations and migrations in the ORM project.
 
-Docker + Docker Compose
+🧱 Create tables and relationships such as Sales and SaleItems, including keys and constraints.
 
-Any REST client (Postman, curl, etc.)
+🌱 Seed initial data using HasData(...) defined in seed methods like:
 
-▶️ Running the project
-bash
-Copiar
-docker-compose up --build -d
-📬 API URL
-bash
-Copiar
+modelBuilder.Seed();
+
+modelBuilder.SeedBusinessRuleExamples();
+
+⚠️ Ensure Docker is running and the database container is available before executing this command.
+```
+
+---
+
+### 🌐 Swagger UI
+
+Once running, access:
+
+```
 https://localhost:8081/swagger
-Swagger UI will be available at https://localhost:8081/swagger.
+```
 
-🧪 Testing
-To run unit tests:
+> Use Swagger to test the endpoints and view schema documentation.
 
-bash
-Copiar
-dotnet test tests/Ambev.DeveloperEvaluation.Tests.Unit
-Tests include:
+---
 
-CreateSaleHandler
+## 🧪 Running Tests
 
-UpdateSaleHandler
+To run all unit tests:
 
-DeleteSaleHandler
+⚙️ Use the below command at "../Tests/Unit/Ambev.DeveloperEvaluation.Unit" project path.
+```bash
+dotnet test
+```
 
-CancelSaleHandler
+Unit tests cover:
 
-GetSaleByIdHandler
+- CreateSaleHandler  
+- UpdateSaleHandler  
+- DeleteSaleHandler  
+- CancelSaleHandler  
+- GetSaleByIdHandler  
+- GetAllSalesHandler  
+- Business rule validations  
 
-GetAllSalesHandler
+---
 
-Business rules validation
+## 🗃️ Project Structure
 
-🗃️ Project Structure
-css
-Copiar
+```
 src/
-├── WebApi               → HTTP Controllers, DI, Program.cs
-├── Application          → CQRS Handlers, Commands, Responses
-├── Domain               → Entities, Interfaces, Business logic
-├── ORM                  → DbContext, Mappings, Migrations
+├── WebApi               → Controllers, Dependency Injection
+├── Application          → Commands, Queries, Handlers, Validators, Responses
+├── Domain               → Entities, Repositories, Business Rules
+├── ORM                  → DbContext, Entity Mappings, Migrations
 
 tests/
-└── Tests.Unit           → xUnit tests for all application use cases
-🧾 Sample Payloads
-➕ Create Sale (POST /api/sales)
-json
-Copiar
+└── Tests.Unit           → xUnit tests organized by use case
+```
+
+---
+
+## 🧾 Sample Payloads
+
+### ➕ Create Sale (POST /api/sales)
+
+```json
 {
   "customerId": "11111111-1111-1111-1111-111111111111",
   "customerName": "Customer A",
@@ -113,16 +144,45 @@ Copiar
     }
   ]
 }
-✅ Expected discount: 10%, total = 5 x 100 x 0.9 = 450
-📌 Notes
-Discounts are not passed from the client — they are calculated in the domain logic.
+```
 
-Sale numbers are auto-generated in the format SALE-XXXXXX.
+> ✅ Expected discount: 10%  
+> 💰 Total: `5 x 100 x 0.9 = 450`
 
-Items cannot exceed 20 units or be less than 1.
+---
 
-Logging is added for SaleCreated, SaleCancelled, and ItemCancelled events.
+### ➕ Create INVALID Sale (POST /api/sales)
 
-👨‍💻 Author
-Made with ❤️ for the Developer Evaluation.
-Feel free to contact me if you have any questions.
+```json
+{
+  "customerId": "00000000-0000-0000-0000-000000000000",
+  "customerName": "",
+  "branchId": "00000000-0000-0000-0000-000000000000",
+  "branchName": "",
+  "items": [
+    {
+      "description": "TV",
+      "quantity": 25,
+      "price": -100
+    },
+    {
+      "description": "",
+      "quantity": 0,
+      "price": 0
+    }
+  ]
+}
+```
+
+## 📝 Notes
+
+- Discounts are **automatically calculated** in the domain layer.  
+- The client does **not** send discounts manually.  
+- Sale numbers are auto-generated as `SALE-XXXXXXX`.  
+- Items with quantity > 20 throw a validation error.  
+- Items with quantity < 4 receive no discount.
+
+---
+
+## 👨‍💻 Author: Matheus Nascimento
+Feel free to reach out for questions or feedback.
