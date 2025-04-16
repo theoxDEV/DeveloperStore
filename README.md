@@ -50,7 +50,9 @@ The API supports full **CRUD operations for sales** and includes:
 
 ### ▶️ Running the project
 
-Setup docker-compose as Startup Project.
+⚠️ Ensure Docker Desktop is running before going forward to these following steps.
+
+Setup docker-compose as Startup Project and run the project.
 
 Use the following command in the Package Manager Console, using ORM project as Default project:
 
