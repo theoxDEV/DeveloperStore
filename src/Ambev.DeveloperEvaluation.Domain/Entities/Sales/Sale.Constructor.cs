@@ -53,5 +53,8 @@ namespace Ambev.DeveloperEvaluation.Domain.Entities
         {
             IsCancelled = true;
         }
+
+        // EF Core needs this for migrations
+        protected Sale() { }
     }
 }

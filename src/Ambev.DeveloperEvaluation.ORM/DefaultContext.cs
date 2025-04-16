@@ -1,4 +1,5 @@
 ﻿using Ambev.DeveloperEvaluation.Domain.Entities;
+using Ambev.DeveloperEvaluation.ORM.Seeds;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
@@ -32,6 +33,8 @@ public class DefaultContext : DbContext
     {
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         base.OnModelCreating(modelBuilder);
+        modelBuilder.Seed();
+        modelBuilder.SeedBusinessRuleExamples();
     }
 }
 public class YourDbContextFactory : IDesignTimeDbContextFactory<DefaultContext>
