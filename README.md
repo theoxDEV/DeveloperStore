@@ -50,19 +50,30 @@ The API supports full **CRUD operations for sales** and includes:
 
 ### ▶️ Running the project
 
-Use the following command in the project root:
+Setup docker-compose as Startup Project.
+
+Use the following command in the Package Manager Console, using ORM project as Default project:
 
 ```bash
-docker-compose up --build -d
+dotnet ef database update --project src/Ambev.DeveloperEvaluation.ORM --startup-project src/Ambev.DeveloperEvaluation.WebApi
 ```
 
-This will start the following containers:
+This command will:
 
 ```
-- Web API on ports 8080 (HTTP) and 8081 (HTTPS)
-- PostgreSQL database on port 5432
-- MongoDB (optional, not used in this scope)
-- Redis (optional, not used in this scope)
+🗂 Create or update the database schema based on the latest entity configurations and migrations in the ORM project.
+
+🧱 Create tables and relationships such as Sales and SaleItems, including keys and constraints.
+
+🌱 Seed initial data using HasData(...) defined in seed methods like:
+
+modelBuilder.Seed();
+
+modelBuilder.SeedBusinessRuleExamples();
+
+⚙️ Use the startup project (WebApi) to resolve the appsettings.json and environment configuration.
+
+⚠️ Ensure Docker is running and the database container is available before executing this command.
 ```
 
 ---
@@ -139,6 +150,29 @@ tests/
 
 ---
 
+### ➕ Create INVALID Sale (POST /api/sales)
+
+```json
+{
+  "customerId": "00000000-0000-0000-0000-000000000000",
+  "customerName": "",
+  "branchId": "00000000-0000-0000-0000-000000000000",
+  "branchName": "",
+  "items": [
+    {
+      "description": "TV",
+      "quantity": 25,
+      "price": -100
+    },
+    {
+      "description": "",
+      "quantity": 0,
+      "price": 0
+    }
+  ]
+}
+```
+
 ## 📝 Notes
 
 - Discounts are **automatically calculated** in the domain layer.  
@@ -149,6 +183,5 @@ tests/
 
 ---
 
-## 👨‍💻 Author
-Matheus Nascimento
+## 👨‍💻 Author: Matheus Nascimento
 Feel free to reach out for questions or feedback.
