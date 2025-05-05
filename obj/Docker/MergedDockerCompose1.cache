@@ -1,4 +1,4 @@
-name: dockercompose6316179390721847381
+name: dockercompose9433611786181032334
 services:
   ambev.developerevaluation.cache:
     command:
@@ -45,7 +45,7 @@ services:
         protocol: tcp
   ambev.developerevaluation.webapi:
     build:
-      context: C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend
+      context: C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation 1 (1) 2\template\backend
       dockerfile: src/Ambev.DeveloperEvaluation.WebApi/Dockerfile
       args:
         BUILD_CONFIGURATION: Debug
@@ -97,12 +97,12 @@ services:
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend\src\Ambev.DeveloperEvaluation.WebApi
+        source: C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation 1 (1) 2\template\backend\src\Ambev.DeveloperEvaluation.WebApi
         target: /app
         bind:
           create_host_path: true
       - type: bind
-        source: C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation\template\backend
+        source: C:\Users\theus\Downloads\abi-gth-omnia-developer-evaluation 1 (1) 2\template\backend
         target: /src
         bind:
           create_host_path: true
@@ -155,4 +155,4 @@ services:
           create_host_path: true
 networks:
   default:
-    name: dockercompose6316179390721847381_default
+    name: dockercompose9433611786181032334_default

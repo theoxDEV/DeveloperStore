@@ -1,10 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation\\template\\backend\\",
+  "WorkspaceRootPath": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\theus\\downloads\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\ambev.developerevaluation.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\theus\\downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\src\\ambev.developerevaluation.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\theus\\downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\src\\ambev.developerevaluation.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|c:\\users\\theus\\downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\src\\ambev.developerevaluation.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2B484022-3EF7-4BAB-ADB8-849F9E419EDD}|src\\Ambev.DeveloperEvaluation.WebApi\\Ambev.DeveloperEvaluation.WebApi.csproj|solutionrelative:src\\ambev.developerevaluation.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF79501-F785-4B98-8EE5-54BE186D67A2}|docker-compose.dcproj|c:\\users\\theus\\downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4AF79501-F785-4B98-8EE5-54BE186D67A2}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF79501-F785-4B98-8EE5-54BE186D67A2}|docker-compose.dcproj|c:\\users\\theus\\downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4AF79501-F785-4B98-8EE5-54BE186D67A2}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF79501-F785-4B98-8EE5-54BE186D67A2}|docker-compose.dcproj|c:\\users\\theus\\downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{4AF79501-F785-4B98-8EE5-54BE186D67A2}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4AF79501-F785-4B98-8EE5-54BE186D67A2}|docker-compose.dcproj|c:\\users\\theus\\downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4AF79501-F785-4B98-8EE5-54BE186D67A2}|docker-compose.dcproj|solutionrelative:launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +38,36 @@
       "DocumentGroups": [
         {
           "DockedHeight": 348,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-16T14:37:39.026Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.json",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-16T13:34:05.37Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -33,16 +85,72 @@
               "Name": "ST:1592713102:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.json",
-              "ToolTip": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.json",
-              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\Ambev.DeveloperEvaluation.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\src\\Ambev.DeveloperEvaluation.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\Ambev.DeveloperEvaluation.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-11T17:23:44.893Z",
+              "WhenOpened": "2025-05-05T13:36:29.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-05-05T13:36:04.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-05T13:36:04.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-05-05T13:33:50.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\launchSettings.json",
+              "RelativeDocumentMoniker": "launchSettings.json",
+              "ToolTip": "C:\\Users\\theus\\Downloads\\abi-gth-omnia-developer-evaluation 1 (1) 2\\template\\backend\\launchSettings.json",
+              "RelativeToolTip": "launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-05T13:33:49.269Z",
               "EditorCaption": ""
             }
           ]
